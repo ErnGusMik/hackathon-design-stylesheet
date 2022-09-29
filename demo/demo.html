@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/hackathon-styles.css">
+    <title>Hackathon styles demo</title>
+</head>
+<body>
+    <div class="buttons">
+        <button class="btn btn-hover-primary">sign up</button>
+        <button class="btn btn-hover-secondary">sign up</button>
+        <button class="btn btn-fill">sign up</button>
+        <button class="btn btn-fill-primary">sign up</button>
+        <button class="btn btn-fill-secondary">sign up</button>
+        <br>
+        <button class="btn btn-hover-gradient"><p>sign up</p></button>
+        <button class="btn btn-gradient"><p>sign up</p></button>
+        <button class="btn" disabled>sign up</button>
+        <button class="btn btn-fill-primary transparent">sign up<div class="spinner"></div></button>
+        <button class="btn btn-fill-secondary transparent">sign up<div class="spinner"></div></button>
+        <a href="#" class="link">link</a>
+        <a href="#" class="link link-hover gradient-text-hover">link with gradient on hover</a>
+    </div>
+    <div class="text" display="display: inline-block; text-align: center;">
+        <h1 class="large-title-text">Large title (h1)</h1>
+        <h2 class="title-text">Title (h2)</h2>
+        <h3 class="subtitle-text">Subtitle (h3)</h3>
+        <p class="body-text-lg">Body text large (p)</p>
+        <p class="body-text">Body text (p)</p>
+        <p class="body-text-sm">Body text small (p)</p>
+        <p class="body-text-xs">Body text extra small (p)</p>
+        <br>
+        <h3 class="subtitle-text gradient-text">Gradient text (any)</h3>
+        <h3 class="subtitle-text gradient-text-hover">Gradient text hover (any)</h3>
+        <h3 class="subtitle-text text-bold">Bold text (any)</h3>
+        <h3 class="subtitle-text text-bold gradient-text">Bold gradient text (any)</h3>
+    </div>
+    <div class="form">
+        <form action="">
+            <div class="input-group">
+                <input type="email" class="input" placeholder="email address" id="email" name="email">
+                <label for="email" class="input-label">email address</label>
+            </div>
+            <div class="input-group">
+                <input type="password" class="input" placeholder="password" name="password" id="password">
+                <label for="password" class="input-label">password</label>
+                <p class="input-message">Enter a strong password!</p>
+            </div>
+            <select name="demo-select" id="demo-select" class="input-select">
+                <option value="0">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10" class="input-textarea" placeholder="anything else?"></textarea>
+            <div class="input-group">
+                <input type="text" disabled value="Disabled input" class="input" name="disabled" id="disabled">
+                <label for="disabled" class="input-label-disabled">disabled input</label>
+            </div>
+            <input type="text" value="Readonly input" readonly class="input">
+            <div class="input-group">
+                <input type="text" class="input input-success" value="correct value" id="correct" name="correct">
+                <label for="correct" class="input-label">successful input</label>
+                <p class="input-message-success">Correct! Good job!</p>
+            </div>
+            <div class="input-group">
+                <input type="text" class="input input-failed" value="incorrect value" id="incorrect" name="incorrect">
+                <label for="incorrect" class="input-label">unsuccessful input</label>
+                <p class="input-message-failed">Enter a valid value, please!</p>
+            </div>
+        </form>
+    </div>
+    <div class="cards">
+        <div class="card card-small">
+            <div class="card-image-container">
+                <img src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Demo image" class="card-image">
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">A quick description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-tag-container">
+                <span class="tag tag-yellow">tag1</span>
+                <span class="tag tag-blue">tag2</span>
+                <span class="tag tag-green">tag3</span>
+                <span class="tag tag-pink">tag4</span>
+            </div>
+        </div>
+        <div class="card card-large">
+            <div class="card-image-container">
+                <img src="https://images.unsplash.com/photo-1655149000742-602179feb1fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80" alt="Demo image" class="card-image">
+            </div>
+            <div class="card-content">
+                <h3 class="card-title bold">Card title</h3>
+                <p class="card-text">A quick description goes here. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam exercitationem autem cupiditate dolorem temporibus similique explicabo tenetur assumenda? Quo, ratione natus! Rerum, quibusdam repellendus vero placeat laborum est dolores quidem!</p>
+                <div class="card-tag-container">
+                    <span class="tag tag-lg tag-yellow">tag1</span>
+                    <span class="tag tag-lg tag-blue">tag2</span>
+                    <span class="tag tag-lg tag-green">tag3</span>
+                    <span class="tag tag-lg tag-pink">tag4</span>  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
